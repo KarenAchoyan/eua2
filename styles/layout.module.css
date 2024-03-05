@@ -134,6 +134,10 @@
 .info {
     display: flex;
 }
+.info a{
+    color: white;
+    text-decoration: none;
+}
 
 .round {
     width: 50px;

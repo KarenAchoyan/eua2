@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import styles from "../../styles/layout.module.css"
 import Drb from "./drb/drb";
 import Image from "next/image";
+import Link from "next/link";
 
 const App = ({children}) => {
     const [menus, setMenus] = useState([
@@ -103,9 +104,9 @@ const App = ({children}) => {
                             </ul>
                             <ul>
                                 <li>ԷՋԵՐ</li>
-                                <li>Գլխավոր</li>
-                                <li>Կապ մեզ հետ</li>
-                                <li>Նորություններ</li>
+                                <li><Link href='/home'>Գլխավոր</Link></li>
+                                <li><Link href='/contact'>Կապ մեզ հետ</Link></li>
+                                <li><Link href='/news'>Նորություններ</Link></li>
                             </ul>
                             <ul>
                                 <li>ՀԵՏԱԴԱՐՁ ԿԱՊ</li>
