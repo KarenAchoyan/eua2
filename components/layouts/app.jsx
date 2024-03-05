@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const App = ({children}) => {
     const [menus, setMenus] = useState([
-        {id: 1, name: "Home", subs: []},
+        {id: 1, name: "Home", path: "/home", subs: []},
         {
             id: 1, name: "Alumni", subs: [
                 {

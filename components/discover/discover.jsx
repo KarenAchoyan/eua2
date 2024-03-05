@@ -3,10 +3,10 @@ import styles from "../../styles/discover.module.css"
 import Item from "./item";
 const Discover = () => {
     const [discovers, setDiscovers] = useState([
-        {id:1, image:"https://eua.am/storage/images/aEiKa78nh8fq4fqGiKShAsEH732tTdqqNfM3MFLG.jpg", title:"Բագալավր"},
-        {id:2, image:"https://eua.am/storage/images/aEiKa78nh8fq4fqGiKShAsEH732tTdqqNfM3MFLG.jpg", title:"Բագալավր"},
-        {id:3, image:"https://eua.am/storage/images/aEiKa78nh8fq4fqGiKShAsEH732tTdqqNfM3MFLG.jpg", title:"Բագալավր"},
-        {id:4, image:"https://eua.am/storage/images/aEiKa78nh8fq4fqGiKShAsEH732tTdqqNfM3MFLG.jpg", title:"Բագալավր"},
+        {id:1, image:"https://eua.am/storage/images/aEiKa78nh8fq4fqGiKShAsEH732tTdqqNfM3MFLG.jpg", title:"Բակալավր"},
+        {id:2, image:"https://eua.am/storage/images/aEiKa78nh8fq4fqGiKShAsEH732tTdqqNfM3MFLG.jpg", title:"Բակալավր"},
+        {id:3, image:"https://eua.am/storage/images/aEiKa78nh8fq4fqGiKShAsEH732tTdqqNfM3MFLG.jpg", title:"Բակալավր"},
+        {id:4, image:"https://eua.am/storage/images/aEiKa78nh8fq4fqGiKShAsEH732tTdqqNfM3MFLG.jpg", title:"Բակալավր"},
     ])
 
     return (
