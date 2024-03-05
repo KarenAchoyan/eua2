@@ -1,0 +1,214 @@
+.headerTop {
+    width: 100%;
+    height: 50px;
+    background: #002147;
+}
+
+.row {
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.row ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.row ul li {
+    color: white;
+    list-style: none;
+    margin: 0px 10px;
+    font-family: "Mardoto Light";
+}
+
+.headerBottom {
+    width: 100%;
+    height: 70px;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 4%;
+}
+
+.menu > ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu > ul > li {
+    margin: 0px 8px;
+    font-size: 14px;
+    font-family: "Mardoto Light";
+    position: relative;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+
+/*drb start*/
+.menu > ul > li:hover > .drb {
+    display: block;
+}
+
+.menu > ul > li:last-child .drb {
+    right: 0;
+}
+
+.drb {
+    position: absolute;
+    padding-top: 27px;
+    display: none;
+}
+
+.drbContent {
+    background: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.drb li {
+    list-style: none;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    transition: 0.5s;
+    position: relative;
+}
+
+.drbContent > ul > li:hover {
+    cursor: pointer;
+    background: #333;
+    color: white;
+}
+
+/*drb end*/
+
+/*subDrb start*/
+.subDrb {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: none;
+}
+
+.subDrbContent {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.drbContent > ul > li:hover .subDrb {
+    display: block;
+    color: black;
+}
+
+.subDrbContent > ul > li:hover {
+    cursor: pointer;
+    background: #333;
+    color: white;
+}
+
+/*subDrb end*/
+
+
+/*footer*/
+.footer {
+    width: 100%;
+    height: 200px;
+    background: #002147;
+    margin-top: 40px;
+}
+
+.info {
+    display: flex;
+}
+
+.round {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    margin: 0px 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.social {
+    display: flex;
+}
+
+.info ul {
+    list-style: none;
+    color: white;
+    margin: 0px 30px;
+}
+
+.containerFooter {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.footerTop {
+    height: 80%;
+    width: 100%;
+}
+
+.info ul li {
+    font-family: "Mardoto Light";
+    margin-top: 5px;
+}
+
+.info ul li:first-child {
+    font-family: "Mardoto Black";
+    margin-bottom: 15px;
+}
+
+.footerBottom {
+    width: 100%;
+    height: 20%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Mardoto Black";
+}
+
+/*footer*/
+@media only screen and  (max-width: 950px) {
+    .menu {
+        display: none;
+    }
+
+    .info ul:nth-child(2){
+       display: none;
+    }
+    .info ul:last-child{
+       display: none;
+    }
+    .row>div:last-child{
+        display: none;
+    }
+    .row>div{
+        font-size: 11px;
+    }
+}
+

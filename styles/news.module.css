@@ -1,0 +1,45 @@
+.container{
+    padding: 0 4%;
+}
+.container>h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Mardoto Black";
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item{
+    width: calc(100% / 3 - 2%);
+    margin: 1% 0;
+    cursor: pointer;
+}
+.item img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.item h2{
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: "Mardoto Light";
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .item{
+        width: calc(100% / 2 - 2%);
+        margin: 20px auto;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .item{
+        width: 98%;
+        margin: 20px auto;
+    }
+}

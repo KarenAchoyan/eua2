@@ -1,0 +1,54 @@
+.banner{
+    padding: 0px 4%;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.contentBanner{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+.contentBanner button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+}
+.applyPopup{
+    width: 40%;
+    background: white;
+    position: absolute;
+    z-index: 2222;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 7px 1px gray;
+    padding: 30px;
+    border-radius: 20px;
+    padding-top: 50px;
+}
+.back{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 33, 71, 0.36);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.closeIcon{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    top: 20px;
+}
+
+@media only screen and (max-width: 500px){
+    .applyPopup{
+        width: 85%;
+    }
+}

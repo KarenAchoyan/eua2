@@ -1,0 +1,15 @@
+.container{
+    padding: 30px 4%;
+
+}
+.container>h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Mardoto Black";
+}
+.item img{
+    width: 95%;
+    height: 150px;
+    object-fit: cover;
+}
