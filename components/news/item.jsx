@@ -7,7 +7,7 @@ const Item = ({item}) => {
     return (
         <div className={styles.item}>
             <Link href={"/news/"+item.title}>
-                <Image width={300} height={200} src={item.image} alt=""/>
+                <Image width={400} height={300} src={item.image} alt=""/>
             </Link>
             <h2>{item.title}</h2>
         </div>

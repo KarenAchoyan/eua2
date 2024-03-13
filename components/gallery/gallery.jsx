@@ -18,11 +18,11 @@ const Gallery = () => {
         {id: 10, image: "https://eua.am/storage/images/IecuS3iMb71ipOaUKAvPawPqbIaCNg9aDE8VvrEY.png"},
     ]);
     const settings = {
-        dots: false,
-        arrows:true,
+        dots: true,
+        arrows:false,
         infinite: true,
         speed: 500,
-        slidesToShow: 6,
+        slidesToShow: 2,
         slidesToScroll: 3,
         prevArrow: <Image width={20} height={20} alt='arrow' src={'/left-arrow.png'}/>,
         nextArrow: <Image  width={20} height={20} alt='arrow' src={'/right-arrow.png'}/>,
@@ -30,28 +30,28 @@ const Gallery = () => {
             {
                 breakpoint: 1720, // screens larger than 1024px
                 settings: {
-                    slidesToShow: 5,
-                    slidesToScroll: 3,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                 },
             },
             {
                 breakpoint: 1520, // screens larger than 1024px
                 settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 3,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                 },
             },
             {
                 breakpoint: 1300, // screens larger than 1024px
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                 },
             },
             {
                 breakpoint: 900, // screens larger than 768px
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                 },
             },
@@ -60,7 +60,7 @@ const Gallery = () => {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
-                    rows:2,
+                    rows:1,
                     prevArrow: null,
                     nextArrow: null,
                 },
@@ -74,7 +74,7 @@ const Gallery = () => {
             <Slider {...settings}>
                 {galleries.map((item) => (
                     <div key={item.id} className={styles.item}>
-                        <Image width={200} height={200} src={item.image} alt=""/>
+                        <Image width={300} height={400} src={item.image} alt=""/>
                     </div>
                 ))}
             </Slider>

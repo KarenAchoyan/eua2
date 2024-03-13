@@ -5,7 +5,7 @@ import Discover from "../../components/discover/discover";
 import News from "../../components/news/news";
 import Gallery from "../../components/gallery/gallery";
 import Events from "../../components/events/events";
-
+import styles from "../../styles/Home.module.css"
 const Index = () => {
     return (
         <>
@@ -13,8 +13,11 @@ const Index = () => {
                 <Banner/>
                 <Discover/>
                 <News/>
-                <Gallery/>
-                <Events/>
+
+                <div className={styles.row}>
+                    <Gallery/>
+                    <Events/>
+                </div>
             </App>
         </>
     );

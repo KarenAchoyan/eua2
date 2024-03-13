@@ -1,0 +1,12 @@
+.row{
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+
+@media only screen and (max-width:900px){
+    .row{
+        width: 95%;
+        flex-direction: column;
+    }
+}

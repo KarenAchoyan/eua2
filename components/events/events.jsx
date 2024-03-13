@@ -14,41 +14,41 @@ const Events = () => {
 
     ])
     const settings = {
-        dots: false,
-        arrows:true,
+        dots: true,
+        arrows:false,
         infinite: true,
         speed: 500,
-        slidesToShow: 6,
-        slidesToScroll: 3,
+        slidesToShow: 2,
+        slidesToScroll:2,
         prevArrow: <Image width={20} height={20} alt='arrow' src={'/left-arrow.png'}/>,
         nextArrow: <Image  width={20} height={20} alt='arrow' src={'/right-arrow.png'}/>,
         responsive: [
             {
                 breakpoint: 1720, // screens larger than 1024px
                 settings: {
-                    slidesToShow: 5,
-                    slidesToScroll: 3,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                 },
             },
             {
                 breakpoint: 1520, // screens larger than 1024px
                 settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 3,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                 },
             },
             {
                 breakpoint: 1300, // screens larger than 1024px
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                 },
             },
             {
                 breakpoint: 900, // screens larger than 768px
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
                 },
             },
             {
@@ -56,7 +56,7 @@ const Events = () => {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
-                    rows:2,
+                    rows:1,
                     prevArrow: null,
                     nextArrow: null,
                 },
