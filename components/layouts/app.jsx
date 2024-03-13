@@ -3,6 +3,7 @@ import styles from "../../styles/layout.module.css"
 import Drb from "./drb/drb";
 import Image from "next/image";
 import Link from "next/link";
+import {FacebookOutlined, InstagramOutlined} from "@ant-design/icons";
 
 const App = ({children}) => {
     const [menus, setMenus] = useState([
@@ -67,7 +68,9 @@ const App = ({children}) => {
                 <div className={styles.headerBottom}>
                     <div className={styles.container}>
                         <div className={styles.logo}>
-                            <Image width={150} height={50} src="/logo.png" alt=""/>
+                            <Link href='/home'>
+                                <Image width={150} height={50} src="/logo.png" alt=""/>
+                            </Link>
                         </div>
                         <div className={styles.menu}>
                             <ul>
@@ -89,10 +92,10 @@ const App = ({children}) => {
                     <div className={styles.containerFooter}>
                         <div className={styles.social}>
                             <div className={styles.round}>
-                                {/*<FacebookOutlined />*/}
+                                <FacebookOutlined />
                             </div>
                             <div className={styles.round}>
-                                {/*<InstagramOutlined />*/}
+                                <InstagramOutlined />
                             </div>
                         </div>
                         <div className={styles.info}>

@@ -2,7 +2,8 @@
     display: flex;
 }
 .container{
-    padding: 0px 4%;
+    width: 75%;
+    margin: auto;
 }
 .container h1{
     font-family: "Mardoto Black";

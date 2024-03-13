@@ -1,5 +1,6 @@
 .container{
-    padding: 0 4%;
+    width: 75%;
+    margin: auto;
 }
 .container>h1{
     text-align: center;
@@ -73,7 +74,10 @@
 .rowSingle{
     display: flex;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 950px) {
+    .container{
+        width: 95%;
+    }
     .item{
         width: calc(100% / 2 - 2%);
         margin: 20px auto;

@@ -1,5 +1,7 @@
 .container{
-    padding: 30px 4%;
+
+    width: 75%;
+    margin: auto;
 
 }
 .container>h1{

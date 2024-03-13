@@ -5,7 +5,7 @@
 }
 
 .row {
-    width: 90%;
+    width: 75%;
     margin: auto;
 
     display: flex;
@@ -35,11 +35,12 @@
 }
 
 .container {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 4%;
+
+    width: 75%;
+    margin: auto;
 }
 
 .menu > ul {
@@ -73,6 +74,7 @@
     position: absolute;
     padding-top: 27px;
     display: none;
+    z-index: 2;
 }
 
 .drbContent {
@@ -102,10 +104,12 @@
     left: 100%;
     top: 0;
     display: none;
+    z-index: 2;
 }
 
 .subDrbContent {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background: white;
 
 }
 
@@ -149,7 +153,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 22px;
+    color: #002147;
 }
 
 .social {
@@ -164,7 +169,7 @@
 
 .containerFooter {
     display: flex;
-    width: 90%;
+    width: 75%;
     margin: auto;
     justify-content: space-between;
     align-items: center;
@@ -198,6 +203,9 @@
 
 /*footer*/
 @media only screen and  (max-width: 950px) {
+    .container, .containerFooter{
+        width: 95%;
+    }
     .menu {
         display: none;
     }

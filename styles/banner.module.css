@@ -1,5 +1,6 @@
 .banner{
-    padding: 0px 4%;
+    width: 75%;
+    margin: auto;
     position: relative;
 }
 .banner img{
@@ -46,7 +47,11 @@
     font-size: 20px;
     top: 20px;
 }
-
+@media only screen and (max-width: 950px) {
+    .banner{
+        width: 95%;
+    }
+}
 @media only screen and (max-width: 500px){
     .applyPopup{
         width: 85%;
