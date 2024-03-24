@@ -3,6 +3,9 @@ import App from "../../components/layouts/app";
 import Image from "next/image";
 import styles from "../../styles/news.module.css"
 import ItemOther from "../../components/news/itemOther";
+import Gallery from "../../components/gallery/gallery";
+import Events from "../../components/events/events";
+import stylesHome from "../../styles/Home.module.css"
 
 const Title = () => {
     const [news, setNews] = useState([
@@ -102,6 +105,10 @@ const Title = () => {
                             <ItemOther key={item.id} item={item}/>
                         ))}
                     </div>
+                </div>
+                <div className={stylesHome.row}>
+                    <Gallery/>
+                    <Events/>
                 </div>
             </App>
         </>

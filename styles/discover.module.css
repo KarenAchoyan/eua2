@@ -6,7 +6,7 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: "Mardoto Black";
+    font-family: MardotoBlack;
 }
 .row{
     display: flex;
@@ -21,7 +21,7 @@
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    font-family: "Mardoto Light";
+    font-family: MardotoLight;
     border-radius: 10px;
     box-shadow: 0px 0px 15px 2px gray;
 }

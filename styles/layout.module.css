@@ -23,7 +23,7 @@
     color: white;
     list-style: none;
     margin: 0px 10px;
-    font-family: "Mardoto Light";
+    font-family: MardotoLight;
 }
 
 .headerBottom {
@@ -51,7 +51,7 @@
 .menu > ul > li {
     margin: 0px 8px;
     font-size: 14px;
-    font-family: "Mardoto Light";
+    font-family: MardotoLight;
     position: relative;
 }
 
@@ -182,12 +182,12 @@
 }
 
 .info ul li {
-    font-family: "Mardoto Light";
+    font-family: MardotoLight;
     margin-top: 5px;
 }
 
 .info ul li:first-child {
-    font-family: "Mardoto Black";
+    font-family: MardotoBlack;
     margin-bottom: 15px;
 }
 
@@ -198,7 +198,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Mardoto Black";
+    font-family: MardotoBlack;
 }
 
 /*footer*/

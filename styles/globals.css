@@ -1,30 +1,35 @@
-*{
-  margin: 0;
-  padding: 0;
-  outline: 0;
-}
-@font-face {
-  font-family: MardotoBlack;
-  src: url(/fonts/Mardoto-Black.ttf);
-}
-@font-face {
-  font-family: MardotoBlackItalic;
-  src: url(/fonts/Mardoto-BlackItalic.ttf);
-}
-@font-face {
-  font-family: MardotoLight;
-  src: url(/fonts/Mardoto-Light.ttf);
-}
-@font-face {
-  font-family: Mardoto;
-  src: url(/fonts/Mardoto-Light.ttf);
-}
-@font-face {
-  font-family: MardotoItalic;
-  src: url(/fonts/Mardoto-Italic.ttf);
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
 }
 
-.slick-slider>img{
-  height: 20px;
-  width: auto;
+@font-face {
+    font-family: MardotoBlack;
+    src: url(/fonts/Mardoto-Black.ttf);
+}
+
+@font-face {
+    font-family: MardotoBlackItalic;
+    src: url(/fonts/Mardoto-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: MardotoLight;
+    src: url(/fonts/Mardoto-Light.ttf);
+}
+
+@font-face {
+    font-family: Mardoto;
+    src: url(/fonts/Mardoto-Light.ttf);
+}
+
+@font-face {
+    font-family: MardotoItalic;
+    src: url(/fonts/Mardoto-Italic.ttf);
+}
+
+.slick-slider > img {
+    height: 20px;
+    width: auto;
 }

@@ -7,7 +7,7 @@
 .container>h1{
     text-align: center;
     margin-top: 20px;
-    font-family: "Mardoto Black";
+    font-family: MardotoBlack;
     margin-bottom: 20px;
     font-size: 20px;
 }
@@ -16,7 +16,7 @@
     height: 150px;
     text-align: center;
     color: white;
-    font-family: "Mardoto Light";
+    font-family: MardotoLight;
 
 
 }
@@ -33,7 +33,7 @@
 }
 .item h2{
     font-size: 20px;
-    font-family: "Mardoto Light";
+    font-family: MardotoLight;
     margin-top: 20px;
     font-size: 17px;
 }
